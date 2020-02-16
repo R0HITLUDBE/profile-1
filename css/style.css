@@ -17,7 +17,6 @@ h1{
 }
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
     color: #62BFBF;
 }
 
@@ -25,12 +24,11 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
     margin-bottom: 0;
-    font-size: 2rem;
 }
 p{
     margin-top:0 ;
     line-height: 2;
-    font-size: 1em;
+    font-size: 1em
 }
 
 hr{
@@ -65,13 +63,11 @@ hr{
     position: absolute;
     right: 20%;
     top: 15%;
-
-
 }
 
 .bottom-cloud{
     position: absolute;
-    l%eft: 20%;
+    left: 20%;
     bottom: 40%;
 
 }
@@ -187,3 +183,8 @@ hr{
     color:black
 }  
 
+@media only screen and (max-width:600px){
+.skill-row{
+    width: 60%;
+}
+}
