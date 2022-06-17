@@ -187,22 +187,21 @@ a:active {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 .fab:hover {
   opacity: 0.7;
 }
 
-.fa-linkedin {
-  color: white;
-}
-
-.fa-twitter {
-  color: blue;
-}
-
-
 @media only screen and (max-width: 600px) {
   .skill-row {
     width: 80%;
+  }
+
+  .projects-image {
+    height: 30%;
+    width: 30%;
+    margin-bottom: 70px;
+    object-fit: cover;
   }
 }
