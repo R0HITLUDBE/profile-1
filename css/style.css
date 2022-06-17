@@ -200,23 +200,9 @@ a:active {
   color: blue;
 }
 
-.fa-instagram {
-  color: purple;
-}
-
-.fa-steam {
-  color: black;
-}
 
 @media only screen and (max-width: 600px) {
   .skill-row {
     width: 80%;
-  }
-
-  .projects-image {
-    height: 30%;
-    width: 30%;
-    margin-bottom: 70px;
-    object-fit: cover;
   }
 }
